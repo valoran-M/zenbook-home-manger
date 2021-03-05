@@ -7,7 +7,7 @@ let
     # basics
     pip faker pywal black setuptools wheel twine flake8 virtualenv pudb
     # utils
-    aioconsole aiohttp matplotlib
+    aioconsole aiohttp matplotlib discord
     # school
     pygame pillow cython
   ]);
