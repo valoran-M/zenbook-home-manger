@@ -16,14 +16,12 @@ in
 
 {
   home.packages = with pkgs; [
-    # KDE
-    latte-dock
     # TERMINAL
-    gotop htop neofetch cava zip 
+    gotop htop neofetch cava zip unzip
     # DEV
-    gcc gnumake gdb rustup cmake conda default-python jdk8
+    gcc gnumake gdb rustup cmake conda default-python jdk8 cmake
     # OFFICE
-    wpsoffice chromium plasma-browser-integration brave
+    wpsoffice plasma-browser-integration brave
     # OTHER
     discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable
     # GAME
