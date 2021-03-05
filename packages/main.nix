@@ -23,13 +23,12 @@ in
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8
     # OFFICE
-    wpsoffice chromium plasma-browser-integration
+    wpsoffice chromium plasma-browser-integration brave
     # OTHER
     discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable
     # GAME
     multimc
     # OH-MY-ZSH
-    nix-zsh-completions
   ];
 
 }
