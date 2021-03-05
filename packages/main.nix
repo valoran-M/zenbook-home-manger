@@ -7,7 +7,7 @@
     # TERMINAL
     gotop htop neofetch cava zip 
     # DEV
-    gcc gnumake gdb rustup cmake
+    gcc gnumake gdb rustup cmake conda
     # OFFICE
     wpsoffice chromium plasma-browser-integration
     # OTHER
