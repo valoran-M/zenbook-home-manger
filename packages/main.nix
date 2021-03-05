@@ -23,7 +23,7 @@ in
     # OFFICE
     wpsoffice plasma-browser-integration brave
     # OTHER
-    discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable
+    discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn
     # GAME
     multimc
     # OH-MY-ZSH
