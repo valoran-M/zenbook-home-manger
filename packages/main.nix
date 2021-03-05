@@ -7,7 +7,7 @@ let
     # basics
     pip faker pywal black setuptools wheel twine flake8 virtualenv pudb
     # utils
-    aioconsole aiohttp matplotlib discord
+    aioconsole aiohttp matplotlib discordpy
     # school
     pygame pillow cython
   ]);
@@ -21,13 +21,15 @@ in
     # TERMINAL
     gotop htop neofetch cava zip 
     # DEV
-    gcc gnumake gdb rustup cmake conda default-python
+    gcc gnumake gdb rustup cmake conda default-python jdk8
     # OFFICE
     wpsoffice chromium plasma-browser-integration
     # OTHER
     discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable
     # GAME
     multimc
+    # OH-MY-ZSH
+    nix-zsh-completions
   ];
 
 }

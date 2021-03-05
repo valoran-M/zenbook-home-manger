@@ -16,6 +16,10 @@
 
     zsh = {
       enable = true;
+      oh-my-zsh.enable = true;
+      oh-my-zsh.plugins = [
+        "git" "completions"
+      ];
       plugins = [
         {
           name = "powerlevel10k";
