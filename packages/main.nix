@@ -16,6 +16,8 @@ in
 
 {
   home.packages = with pkgs; [
+    # KDE
+    kdeconnect
     # TERMINAL
     gotop htop neofetch cava zip unzip
     # DEV
