@@ -17,7 +17,7 @@ in
 {
   home.packages = with pkgs; [
     # KDE
-    kdeconnect okular
+    kdeconnect okular gwenview
     # TERMINAL
     gotop htop neofetch cava zip unzip
     # DEV
