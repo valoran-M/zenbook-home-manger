@@ -23,7 +23,7 @@ in
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8 cmake
     # OFFICE
-    wpsoffice plasma-browser-integration brave
+    wpsoffice plasma-browser-integration brave chromium
     # OTHER
     discord discord-ptb vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn
     # GAME
