@@ -25,7 +25,7 @@ in
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium
     # OTHER
-    discord discord-ptb vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn geogebra
+    discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn geogebra
     # GAME
     multimc
     # OH-MY-ZSH
