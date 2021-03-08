@@ -19,16 +19,18 @@ in
     # KDE
     kdeconnect okular gwenview
     # TERMINAL
-    gotop htop neofetch cava zip unzip
+    gotop htop neofetch cava zip unzip unrar
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8 cmake
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium
     # OTHER
-    discord discord-ptb vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn
+    discord discord-ptb vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn geogebra
     # GAME
     multimc
     # OH-MY-ZSH
+    # RESEAU
+    nmap
   ];
 
 }
