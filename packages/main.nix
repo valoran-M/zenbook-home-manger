@@ -17,7 +17,7 @@ in
 {
   home.packages = with pkgs; [
     # KDE
-    kdeconnect okular gwenview
+    kdeconnect okular gwenview kolourpaint
     # TERMINAL
     gotop htop neofetch cava zip unzip unrar
     # DEV
@@ -25,10 +25,11 @@ in
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium
     # OTHER
-    discord vlc spotify gimp obs-studio tmate  wineWowPackages.stable openvpn geogebra pavucontrol
+    discord vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol
     # GAME
     multimc
-    # OH-MY-ZSH
+    # OBS
+    obs-studio obs-v4l2sink
     # RESEAU
     nmap
   ];
