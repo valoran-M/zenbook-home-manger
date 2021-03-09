@@ -21,7 +21,7 @@ in
     # TERMINAL
     gotop htop neofetch cava zip unzip unrar
     # DEV
-    gcc gnumake gdb rustup cmake conda default-python jdk8 cmake
+    gcc gnumake gdb rustup cmake conda default-python jdk8 cmake doctest
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium
     # OTHER
