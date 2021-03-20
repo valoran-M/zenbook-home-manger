@@ -7,9 +7,9 @@ let
     # basics
     pip faker pywal black setuptools wheel twine flake8 virtualenv pudb
     # utils
-    aioconsole aiohttp matplotlib discordpy
+    aioconsole aiohttp matplotlib discordpy selenium
     # school
-    pygame pillow cython
+    pygame pillow cython pandas
   ]);
 
 in
@@ -17,7 +17,7 @@ in
 {
   home.packages = with pkgs; [
     # KDE
-    kdeconnect okular gwenview kolourpaint
+    kdeconnect okular gwenview kolourpaint spectacle
     # TERMINAL
     gotop htop neofetch cava zip unzip unrar
     # DEV

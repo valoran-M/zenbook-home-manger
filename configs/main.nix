@@ -10,7 +10,7 @@
     command-not-found.enable = true;
     git = {
       enable = true;
-      userName = "Valeran Maytie";
+      userName = "Valeran-M";
       userEmail = "v.maytie85@orange.fr";
     };
 
