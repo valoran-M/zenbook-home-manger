@@ -4,6 +4,7 @@
   imports = [
 	./kde.nix
   ./alacritty.nix
+  ./vscode.nix
   ];
   
   programs = {

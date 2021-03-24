@@ -12,13 +12,6 @@ let
     pygame pillow cython pandas pytorch
   ]);
 
-nixpkgs.overlays = [
-  (self: super: { 
-    discord = super.discord.overrideAttrs (_: { src = builtins.fetchTarball https://discord.com/api/download?platform=linux&format=tar.gz; });
-  })
-];
-
-
 in
 
 {
@@ -33,7 +26,7 @@ in
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium dconf audacity texlive.combined.scheme-medium
     # OTHER
-    element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom
+    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom
     # GAME
     multimc
     # OBS

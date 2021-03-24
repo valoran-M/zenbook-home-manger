@@ -4,8 +4,8 @@
   imports = [
 	./configs/main.nix
 	./packages/main.nix
-	./packages/vscode.nix
   ];
+  nixpkgs.overlays = [ (import ./overlays/main.nix) ];
 
   home = {
     username = "valeran";
