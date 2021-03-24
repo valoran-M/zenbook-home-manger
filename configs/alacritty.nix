@@ -20,7 +20,7 @@
         size = 8.0;
       };
 
-      background_opacity = 0.3;
+      background_opacity = 0.8;
 
       shell = { program = "${pkgs.zsh}/bin/zsh"; };
 
