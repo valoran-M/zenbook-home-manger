@@ -3,6 +3,7 @@
 {
   imports = [
 	./kde.nix
+  ./alacritty.nix
   ];
   
   programs = {
