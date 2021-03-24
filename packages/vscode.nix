@@ -11,6 +11,12 @@
 
         # Languages support
         {
+        name = "nixfmt-vscode";
+        publisher = "brettm12345";
+        version = "0.0.1";
+        sha256 = "07w35c69vk1l6vipnq3qfack36qcszqxn8j3v332bl0w6m02aa7k";
+        }
+        {
             name = "cmake-tools";
             publisher = "ms-vscode";
             version = "1.5.3";
@@ -22,7 +28,6 @@
             version = "0.7.8";
             sha256 = "039ns854v1k4jb9xqknrjkj8lf62nfcpfn0716ancmjc4f0xlzb3";
         }
-
         # config support
         {
             name = "latex-workshop";
@@ -73,6 +78,7 @@
     ];
 
     userSettings = {
+        update.mode = "none";
         terminal.integrated.shell.linux = "${pkgs.zsh}/bin/zsh";
         window.zoomLevel = 0;
         editor = {
@@ -87,8 +93,7 @@
         rust-client.rustupPath = "${pkgs.rustup}/bin/rustup";
         latex-workshop.view.pdf.viewer = "tab";
         cmake.configureOnOpen = false;
+        python.formatting.provider = "black";
     };
-
-
   };
 }

@@ -12,6 +12,13 @@ let
     pygame pillow cython pandas pytorch
   ]);
 
+nixpkgs.overlays = [
+  (self: super: { 
+    discord = super.discord.overrideAttrs (_: { src = builtins.fetchTarball https://discord.com/api/download?platform=linux&format=tar.gz; });
+  })
+];
+
+
 in
 
 {
@@ -19,14 +26,14 @@ in
     # KDE
     kdeconnect okular gwenview kolourpaint spectacle
     # TERMINAL
-    gotop htop neofetch cava zip unzip unrar
+    gotop htop neofetch cava zip unzip unrar man
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8 cmake doctest
     nodejs
     # OFFICE
-    wpsoffice plasma-browser-integration brave chromium dconf audacity
+    wpsoffice plasma-browser-integration brave chromium dconf audacity texlive.combined.scheme-medium
     # OTHER
-    discord vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol
+    element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom
     # GAME
     multimc
     # OBS
