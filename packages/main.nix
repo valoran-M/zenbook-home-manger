@@ -19,20 +19,21 @@ in
     # KDE
     kdeconnect okular gwenview kolourpaint spectacle
     # TERMINAL
-    gotop htop neofetch cava zip unzip unrar man
+    gotop htop neofetch cava zip unzip unrar man tree ponysay
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8 cmake doctest
-    nodejs pkg-config
+    nodejs pkg-config upx SDL2
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium dconf audacity texlive.combined.scheme-medium
     # OTHER
-    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom
+    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom terminus
     # GAME
     multimc
     # OBS
     obs-studio obs-v4l2sink
+    # TOOLS
+    vbindiff metasploit
     # RESEAU
     nmap
   ];
-
 }

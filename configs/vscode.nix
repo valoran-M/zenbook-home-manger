@@ -7,7 +7,9 @@
 
     extensions = (with pkgs.vscode-extensions; [
         bbenoist.Nix ms-python.python ms-vscode.cpptools
-    ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+    ])  ++ (let unstable = import <nixos> { };
+    in [ unstable.vscode-extensions.ms-vsliveshare.vsliveshare ])
+        ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
 
         # Languages support
         {
@@ -56,16 +58,16 @@
 
         # Theme
         {
-            name = "vsc-material-theme-icons";
-            publisher = "Equinusocio";
-            version = "1.2.2";
-            sha256 = "06xfv8ggli88zg1hyrd7m494fl6bz4fspbxy626nsswq4f26msms";
+          name = "vsc-material-theme-icons";
+          publisher = "Equinusocio";
+          version = "2.0.10";
+          sha256 = "0ki9x63wvc1h44cy5g9i96zkmcy1a3wc4sqzw3an17qad1lsicwb";
         }
         {
-            name = "vsc-material-theme";
-            publisher = "Equinusocio";
-            version = "33.1.2";
-            sha256 = "14db0xmhcrk0lxafcgiqqzi1ydhiy16hs4r9g0jcdglj8bn6y624";
+          name = "github-vscode-theme";
+          publisher = "github";
+          version = "3.0.0";
+          sha256 = "1a77mbx75xfsfdlhgzghj9i7ik080bppc3jm8c00xp6781987fpa";
         }
 
         # Misc
@@ -87,8 +89,9 @@
         };
 
         workbench = {
-            iconTheme = "eq-material-theme-icons-darker";
-            colorTheme = "Material Theme Darker High Contrast";
+            iconTheme = "material-icon-theme";
+            colorTheme = "GitHub Dark Default";
+            material-icon-theme.folders.theme = "specifi";
         };
         rust-client.rustupPath = "${pkgs.rustup}/bin/rustup";
         latex-workshop.view.pdf.viewer = "tab";
