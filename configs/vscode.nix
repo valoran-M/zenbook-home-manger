@@ -90,7 +90,7 @@
 
         workbench = {
             iconTheme = "material-icon-theme";
-            colorTheme = "GitHub Dark Default";
+            colorTheme = "Material Theme Ocean High Contrast";
             material-icon-theme.folders.theme = "specifi";
         };
         rust-client.rustupPath = "${pkgs.rustup}/bin/rustup";
