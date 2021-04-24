@@ -13,7 +13,6 @@ let
   ]);
 
 in
-
 {
   home.packages = with pkgs; [
     # KDE
@@ -26,7 +25,8 @@ in
     # OFFICE
     wpsoffice plasma-browser-integration brave chromium dconf audacity texlive.combined.scheme-medium
     # OTHER
-    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom terminus
+    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom
+    discord-ptb tor-browser-bundle-bin
     # GAME
     multimc
     # OBS
@@ -34,6 +34,6 @@ in
     # TOOLS
     vbindiff metasploit
     # RESEAU
-    nmap
+    nmap tor 
   ];
 }

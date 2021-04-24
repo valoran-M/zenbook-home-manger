@@ -3,4 +3,8 @@ self: super: {
     src = builtins.fetchTarball
       "https://discord.com/api/download?platform=linux&format=tar.gz";
   });
+  discord-ptb = super.discord-ptb.overrideAttrs (_: {
+    src = builtins.fetchTarball
+      "https://discordapp.com/api/download/ptb?platform=linux&format=tar.gz";
+  });
 }
