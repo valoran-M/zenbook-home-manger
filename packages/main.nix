@@ -19,6 +19,7 @@ in
     kdeconnect okular gwenview kolourpaint spectacle
     # TERMINAL
     gotop htop neofetch cava zip unzip unrar man tree ponysay
+    cli-visualizer
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8 cmake doctest
     nodejs pkg-config upx SDL2
