@@ -9,7 +9,7 @@ let
     # utils
     aioconsole aiohttp matplotlib discordpy selenium
     # school
-    pygame pillow cython pandas pytorch
+    pygame pillow cython pandas
   ]);
 
 in
@@ -26,7 +26,7 @@ in
     # OFFICE
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     # OTHER
-    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn geogebra pavucontrol  zoom
+    discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn pavucontrol  zoom
     discord-ptb tor-browser-bundle-bin
     # GAME
     multimc

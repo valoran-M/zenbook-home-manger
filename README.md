@@ -4,7 +4,7 @@ See my configuration of nixos for my laptop.
 
 I use two channels:
 
-1. home-manager: https://github.com/nix-community/home-manager/archive/release-20.09.tar.gz
+1. home-manager: https://github.com/nix-community/home-manager/archive/release-21.05.tar.gz
 1. nixos: https://nixos.org/channels/nixos-unstable
 
 

@@ -12,5 +12,5 @@
     homeDirectory = "/home/valeran";
     keyboard.layout = "fr";
   };
-  home.stateVersion = "21.03";
+  home.stateVersion = "21.05";
 }
