@@ -27,7 +27,7 @@ in
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     # OTHER
     discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn pavucontrol  zoom
-    discord-ptb tor-browser-bundle-bin
+    discord-ptb tor-browser-bundle-bin virtualbox
     # GAME
     multimc
     # OBS
