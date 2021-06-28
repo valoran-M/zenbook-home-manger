@@ -21,13 +21,13 @@ in
     gotop htop neofetch cava zip unzip unrar man tree ponysay
     cli-visualizer
     # DEV
-    gcc gnumake gdb rustup cmake conda default-python jdk8 cmake doctest
+    gcc gnumake gdb rustup conda default-python jdk8 doctest
     nodejs pkg-config upx SDL2
     # OFFICE
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     # OTHER
     discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn pavucontrol  zoom
-    discord-ptb tor-browser-bundle-bin virtualbox
+    discord-ptb tor-browser-bundle-bin virtualbox thunderbird
     # GAME
     multimc
     # OBS
