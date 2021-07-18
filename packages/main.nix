@@ -10,6 +10,8 @@ let
     aioconsole aiohttp matplotlib discordpy selenium
     # school
     pygame pillow cython pandas
+
+    autopep8
   ]);
 
 in
@@ -22,12 +24,12 @@ in
     cli-visualizer
     # DEV
     gcc gnumake gdb rustup conda default-python jdk8 doctest
-    nodejs pkg-config upx SDL2
+    nodejs pkg-config upx SDL2 ocaml
     # OFFICE
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     # OTHER
     discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn pavucontrol  zoom
-    discord-ptb tor-browser-bundle-bin virtualbox thunderbird
+    discord-ptb tor-browser-bundle-bin virtualbox thunderbird 
     # GAME
     multimc
     # OBS
