@@ -6,17 +6,25 @@
     package = pkgs.vscode;
 
     extensions = (with pkgs.vscode-extensions; [
-        bbenoist.Nix ms-python.python ms-vscode.cpptools
+        bbenoist.Nix 
+        ms-python.python 
+        ms-vscode.cpptools
     ])  ++ (let unstable = import <nixos> { };
     in [ unstable.vscode-extensions.ms-vsliveshare.vsliveshare ])
         ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
 
         # Languages support
         {
-        name = "nixfmt-vscode";
-        publisher = "brettm12345";
-        version = "0.0.1";
-        sha256 = "07w35c69vk1l6vipnq3qfack36qcszqxn8j3v332bl0w6m02aa7k";
+            name = "SQL-Server";
+            publisher = "Microsoft";
+            version = "1.10.1";
+            sha256 = "4dlhsl4kxp9p632mbv1rcq9kjc0y6zdy";
+        }
+        {
+            name = "nixfmt-vscode";
+            publisher = "brettm12345";
+            version = "0.0.1";
+            sha256 = "07w35c69vk1l6vipnq3qfack36qcszqxn8j3v332bl0w6m02aa7k";
         }
         {
             name = "cmake-tools";
