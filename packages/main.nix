@@ -29,7 +29,7 @@ in
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     # OTHER
     discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn pavucontrol  zoom
-    discord-ptb tor-browser-bundle-bin virtualbox thunderbird 
+    discord-ptb tor-browser-bundle-bin virtualbox thunderbird gitkraken
     # GAME
     multimc
     # OBS
@@ -37,6 +37,7 @@ in
     # TOOLS
     vbindiff metasploit
     # RESEAU
-    nmap tor 
+    nmap tor wireshark
+    (callPackage ./termius.nix { })
   ];
 }

@@ -15,12 +15,6 @@
 
         # Languages support
         {
-            name = "SQL-Server";
-            publisher = "Microsoft";
-            version = "1.10.1";
-            sha256 = "4dlhsl4kxp9p632mbv1rcq9kjc0y6zdy";
-        }
-        {
             name = "nixfmt-vscode";
             publisher = "brettm12345";
             version = "0.0.1";
