@@ -23,10 +23,12 @@ in
     gotop htop neofetch cava zip unzip unrar man tree ponysay
     cli-visualizer killall
     # DEV
-    gcc gnumake gdb rustup conda default-python jdk8 doctest
+    gcc gnumake gdb rustup conda jdk8 doctest
     nodejs pkg-config upx SDL2 ocaml
+    default-python
     # OFFICE
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
+    nasm
     # OTHER
     discord element-desktop vlc spotify gimp tmate  wineWowPackages.stable openvpn pavucontrol  zoom
     discord-ptb tor-browser-bundle-bin virtualbox thunderbird gitkraken
@@ -35,7 +37,7 @@ in
     # OBS
     obs-studio obs-v4l2sink
     # TOOLS
-    vbindiff metasploit
+    vbindiff
     # RESEAU
     nmap tor wireshark
     (callPackage ./termius.nix { })

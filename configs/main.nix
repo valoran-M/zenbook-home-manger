@@ -5,6 +5,7 @@
 	./kde.nix
   ./alacritty.nix
   ./vscode.nix
+  ./neovim.nix
   ];
   
   programs = {
