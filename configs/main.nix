@@ -4,7 +4,7 @@
   imports = [
 	./kde.nix
   ./alacritty.nix
-  ./vscode.nix
+  # ./vscode.nix
   ./neovim.nix
   ];
   

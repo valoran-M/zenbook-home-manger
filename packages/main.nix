@@ -1,21 +1,11 @@
 {pkgs, ...}:
 
-
-with pkgs;
-let
-  default-python = python3.withPackages (python-packages: with python-packages; [
-    # basics
-    pip faker pywal black setuptools wheel twine flake8 virtualenv pudb ipykernel
-    # utils
-    aioconsole aiohttp matplotlib discordpy selenium
-    # school
-    pygame pillow cython pandas
-
-    autopep8
-  ]);
-
-in
 {
+
+  imports = [
+    ./dev
+  ];
+
   home.packages = with pkgs; [
     # KDE
     kdeconnect okular gwenview kolourpaint spectacle
@@ -23,9 +13,12 @@ in
     gotop htop neofetch cava zip unzip unrar man tree ponysay
     cli-visualizer killall
     # DEV
-    gcc gnumake gdb rustup conda jdk8 doctest
-    nodejs pkg-config upx SDL2 ocaml
-    default-python
+    gcc gnumake gdb 
+    rustup
+    jdk8 
+    nodejs 
+    pkg-config upx SDL2 doctest
+    conda
     # OFFICE
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     nasm
