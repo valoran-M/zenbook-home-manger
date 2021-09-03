@@ -1,5 +1,5 @@
-{pkgs, config, ...}:
+{ pkgs, config, ... }:
 
 {
-  
+
 }

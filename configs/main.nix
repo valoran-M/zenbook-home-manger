@@ -1,13 +1,8 @@
-{config, pkgs, lib, ... }:
+{ config, pkgs, lib, ... }:
 
 {
-  imports = [
-	./kde.nix
-  ./alacritty.nix
-  # ./vscode.nix
-  ./neovim.nix
-  ];
-  
+  imports = [ ./kde.nix ./alacritty.nix ./vscode.nix ./neovim.nix ];
+
   programs = {
     home-manager.enable = true;
     command-not-found.enable = true;
@@ -20,9 +15,7 @@
     zsh = {
       enable = true;
       oh-my-zsh.enable = true;
-      oh-my-zsh.plugins = [
-        "git"
-      ];
+      oh-my-zsh.plugins = [ "git" ];
       plugins = [
         {
           name = "zsh-autosuggestions";

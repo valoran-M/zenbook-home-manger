@@ -1,9 +1,5 @@
-{ pkgs, ...}:
-
+{ pkgs, ... }:
 
 {
-  imports = [
-    ./python
-    ./ocaml
-  ];
+  imports = [ ./python ./ocaml ];
 }
