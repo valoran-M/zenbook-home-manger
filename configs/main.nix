@@ -1,3 +1,3 @@
 {
-  imports = [ ./alacritty.nix ./zsh ];
+  imports = [ ./zsh ];
 }
