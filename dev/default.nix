@@ -1,5 +1,5 @@
 { pkgs, ... }:
 
 {
-  imports = [ ./cxx ./ocaml ./python ];
+  imports = [ ./cxx ./ocaml ./python ./git.nix];
 }

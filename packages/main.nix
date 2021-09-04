@@ -13,7 +13,5 @@
 
     vlc
     spotify
-
-    gitkraken
   ];
 }
