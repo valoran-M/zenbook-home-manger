@@ -34,5 +34,5 @@ let
     ]);
 in {
 
-  home.packages = with pkgs; [ p2-packages p3-packages ];
+  home.packages = with pkgs; [ p2-packages p3-packages conda];
 }

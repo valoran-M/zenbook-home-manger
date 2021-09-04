@@ -1,9 +1,6 @@
 { pkgs, ... }:
 
 {
-
-  imports = [ ./dev ];
-
   home.packages = with pkgs; [
     # KDE
     kdeconnect
@@ -13,7 +10,6 @@
     spectacle
     # TERMINAL
     gotop
-    htop
     neofetch
     cava
     zip
@@ -26,17 +22,10 @@
     killall
     # DEV
     nixfmt
-    gcc
-    gnumake
-    gdb
+
     rustup
     jdk8
     nodejs
-    pkg-config
-    upx
-    SDL2
-    doctest
-    conda
     # OFFICE
     wpsoffice
     plasma-browser-integration
@@ -65,7 +54,6 @@
     multimc
     # OBS
     obs-studio
-    obs-v4l2sink
     # TOOLS
     vbindiff
     # RESEAU

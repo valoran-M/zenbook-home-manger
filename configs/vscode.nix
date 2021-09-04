@@ -10,6 +10,7 @@
       ms-python.python
       ms-vscode.cpptools
       ms-vsliveshare.vsliveshare
+      tomoki1207.pdf
     ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
 
       # Languages support
