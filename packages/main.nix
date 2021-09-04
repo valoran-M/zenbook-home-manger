@@ -15,7 +15,5 @@
     spotify
 
     gitkraken
-    # OBS
-    obs-studio
   ];
 }
