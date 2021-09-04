@@ -1,12 +1,14 @@
 {
   imports = [
     ./editor
-    ./media
     ./game
+    ./media
     ./messaging
     ./monitoring
     ./office
+    ./shell
     ./streaming
+    ./terminal
     ./tools
     ./web
   ];
