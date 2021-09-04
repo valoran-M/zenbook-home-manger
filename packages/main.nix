@@ -20,7 +20,5 @@
     # TOOLS
     vbindiff
     # RESEAU
-    nmap
-    wireshark
   ];
 }
