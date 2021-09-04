@@ -8,10 +8,5 @@
     jdk8
     nodejs
     nasm
-
-    # OTHER
-
-    vlc
-    spotify
   ];
 }
