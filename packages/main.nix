@@ -17,8 +17,5 @@
     gitkraken
     # OBS
     obs-studio
-    # TOOLS
-    vbindiff
-    # RESEAU
   ];
 }

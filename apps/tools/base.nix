@@ -14,6 +14,7 @@
     tree
     man
     tmate
+    vbindiff
     wineWowPackages.stable
 
     (callPackage ./termius.nix { })

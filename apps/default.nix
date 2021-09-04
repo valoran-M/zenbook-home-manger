@@ -1,3 +1,12 @@
 {
-  imports = [ ./editor ./tools ./web ./game ./monitoring ./office ./messaging ];
+  imports = [
+    ./editor
+    ./tools
+    ./web
+    ./game
+    ./monitoring
+    ./office
+    ./messaging
+    ./streaming
+  ];
 }
