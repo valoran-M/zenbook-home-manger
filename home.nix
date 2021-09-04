@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ ./configs/main.nix ./packages/main.nix ./dev];
+  imports = [ ./configs/main.nix ./packages/main.nix ./dev ./apps];
   nixpkgs.overlays = [ (import ./overlays/main.nix) ];
 
   home = {

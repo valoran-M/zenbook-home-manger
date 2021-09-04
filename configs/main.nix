@@ -1,7 +1,7 @@
 { config, pkgs, lib, ... }:
 
 {
-  imports = [ ./kde.nix ./alacritty.nix ./vscode.nix ./neovim.nix ./zsh ];
+  imports = [ ./alacritty.nix ./zsh ];
 
   programs = {
     home-manager.enable = true;
