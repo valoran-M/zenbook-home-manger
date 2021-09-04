@@ -12,6 +12,9 @@
     bat
     screenfetch
     tree
+    man
+    tmate
+    wineWowPackages.stable
 
     (callPackage ./termius.nix { })
   ];

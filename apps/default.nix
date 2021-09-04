@@ -1,1 +1,3 @@
-{ imports = [ ./editor ./tools ./web ./game ./monitoring ]; }
+{
+  imports = [ ./editor ./tools ./web ./game ./monitoring ./office ./messaging ];
+}
