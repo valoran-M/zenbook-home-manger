@@ -6,5 +6,6 @@
     audacity
     gimp
     texlive.combined.scheme-medium
+    libreoffice
   ];
 }

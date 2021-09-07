@@ -3,6 +3,8 @@
 {
   programs.zsh = {
     sessionVariables.SHELL = "zsh";
+    sessionVariables.OCAMLFORMAT ="if-then-else=k-r";
+    
     enable = true;
     oh-my-zsh.enable = true;
     oh-my-zsh.plugins = [ "git" ];

@@ -5,6 +5,13 @@
     enable = true;
     viAlias = true;
     vimAlias = true;
+    extraConfig = ''
+        colorscheme dracula
+        let g:context_nvim_no_redraw = 1
+        set mouse=a
+        set number
+        set termguicolors
+      '';
     plugins = with pkgs.vimPlugins;
       let
         context-vim = pkgs.vimUtils.buildVimPlugin {
@@ -16,6 +23,15 @@
             sha256 = "1iy614py9qz4rwk9p4pr1ci0m1lvxil0xiv3ymqzhqrw5l55n346";
           };
         };
+        dracula = pkgs.vimUtils.buildVimPlugin {
+          name = "dracula";
+          src = pkgs.fetchFromGitHub {
+            owner = "dracula";
+            repo = "vim";
+            rev = "d1864ac0734ce51150affa96a35a1e01ade08b79";
+            sha256 = "1iy614py9qz4rwk9p4pr1ci0m1lvxil0xiv3ymqzhqrw5l55n346";
+          };
+        };
       in [
         context-vim
         editorconfig-vim
@@ -23,6 +39,8 @@
         vim-airline
         vim-elixir
         vim-nix
+        nerdtree
+        dracula
       ];
   };
 }

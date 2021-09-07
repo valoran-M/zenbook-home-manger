@@ -1,5 +1,5 @@
 { pkgs, ... }:
 
 {
-  home.packages = with pkgs; [ steam minecraft ];
+  home.packages = with pkgs; [ steamcmd steam minecraft ];
 }

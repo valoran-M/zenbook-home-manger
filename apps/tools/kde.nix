@@ -6,5 +6,6 @@
     gwenview
     kolourpaint
     spectacle
+    kdeconnect
   ];
 }

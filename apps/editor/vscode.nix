@@ -57,6 +57,18 @@
         version = "0.5.16";
         sha256 = "0w5w2np8fkxpknq76yv8id305rxd8a1p84p9k0jwwwlrsyrz31q8";
       }
+      {
+        name = "preview-pdf";
+        publisher = "analytic-signal";
+        version = "1.0.0";
+        sha256 = "0zdqick3d5xa7nxkmwdh1z174ggsp1prn3f601d0y4lg4j1kvilv";
+      }
+      {
+        name = "ocamlformat-vscode-extension";
+        publisher = "hoddy3190";
+        version = "0.0.2";
+        sha256 = "0gqjiccw9i0xfz2lj8vwxbr8zy1s69fyckyhpvlhnxfn5dacrsd4";
+      }
 
       # Theme
       {
@@ -96,12 +108,18 @@
         colorTheme = "Material Theme Ocean High Contrast";
         material-icon-theme.folders.theme = "specifi";
       };
+      ocamlformat-vscode-extension = {
+        customOcamlformatPath = "ocamlformat";
+        ocamlformatOption = "--enable-outside-detected-project";
+      };
       rust-client.rustupPath = "${pkgs.rustup}/bin/rustup";
       latex-workshop.view.pdf.viewer = "tab";
       cmake.configureOnOpen = false;
       python.formatting.provider = "black";
-      "[ocaml]" = { editor.defaultFormatter = "badochov.ocaml-formatter"; };
-      "[nix]" = { editor.defaultFormatter = "brettm12345.nixfmt-vscode"; };
+      "[ocaml]" = {
+        "editor.defaultFormatter" = "hoddy3190.ocamlformat-vscode-extension";
+      };
+      "[nix]" = { "editor.defaultFormatter" = "brettm12345.nixfmt-vscode"; };
     };
   };
 }

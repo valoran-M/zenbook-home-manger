@@ -4,7 +4,7 @@
   home.packages = with pkgs; [
     discord
     discord-ptb
-    mattermost
+    mattermost-desktop
     element-desktop
     zoom
   ];
