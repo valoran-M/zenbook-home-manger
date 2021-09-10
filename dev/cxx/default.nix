@@ -8,6 +8,7 @@
     gcc
     gdb
     cmake
+    clang-tools
 
     # LIB
     SDL2
