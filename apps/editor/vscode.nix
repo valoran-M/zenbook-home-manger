@@ -128,9 +128,9 @@
       cmake.configureOnOpen = false;
       python.formatting.provider = "black";
       "[ocaml]" = {
-        "editor.defaultFormatter" = "hoddy3190.ocamlformat-vscode-extension";
+        editor.defaultFormatter = "hoddy3190.ocamlformat-vscode-extension";
       };
-      "[nix]" = { "editor.defaultFormatter" = "brettm12345.nixfmt-vscode"; };
+      "[nix]" = { editor.defaultFormatter = "brettm12345.nixfmt-vscode"; };
     };
   };
 }
