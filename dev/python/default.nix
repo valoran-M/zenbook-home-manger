@@ -24,6 +24,8 @@ let
       matplotlib
       discordpy
       selenium
+      libevdev
+
       # school
       pygame
       pillow

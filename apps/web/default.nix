@@ -5,6 +5,7 @@
     brave
     google-chrome
     tor
+    torbrowser
     openvpn
     thunderbird
     plasma-browser-integration

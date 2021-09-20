@@ -119,7 +119,7 @@
 
       ocamlformat-vscode-extension = {
         customOcamlformatPath = "ocamlformat";
-        ocamlformatOption = "--enable-outside-detected-project";
+        ocamlformatOption = "--enable-outside-detected-project,--break-cases=fit-or-vertical,--cases-exp-indent=4";
       };
 
       jupyter.alwaysTrustNotebooks = true;

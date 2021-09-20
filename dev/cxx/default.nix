@@ -9,6 +9,7 @@
     gdb
     cmake
     clang-tools
+    libevdevc
 
     # LIB
     SDL2
