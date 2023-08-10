@@ -18,7 +18,7 @@ I use two channels:
 
 ```shell
 cd~
-git clone https://github.com/Valeran-MAYTIE/zenbook-home-manger.git .config/nixpkgs
+git clone [https://github.com/Valeran-MAYTIE/zenbook-home-manger.git](https://github.com/valoran-M/zenbook-home-manger.git) .config/nixpkgs
 home-manager switch
 ```
 
